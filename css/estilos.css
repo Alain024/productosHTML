@@ -1,0 +1,516 @@
+
+
+/*Inicia Estilos del Header*/
+
+#header {
+  width: 1170px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+#logo {
+  width: 130px;
+  height: 39px;
+  float: left;
+  margin: 30px 30px 0px 30px;
+}
+
+#main_menu{
+  font-family: 'Arimo', sans-serif;
+  width: 580px;
+  font-size: 11px;
+  margin-top: 60px;
+  float: left;
+}
+
+#main_menu ul li{
+  float: left;
+  list-style: none;
+  padding-right: 15px;
+}
+
+#main_menu ul li a{
+  text-decoration: none;
+  color: #4f545a;
+  padding-bottom: 10px;
+}
+
+#main_menu ul li a:hover{
+  color: #00aabc;
+  border-bottom: 2px solid #fcb813;
+}
+
+#login{
+  font-family: 'Arimo', sans-serif;
+  margin-top: 48px;
+  font-size: 11px;
+  float: right;
+}
+
+#login ul li{
+  float: left;
+  list-style: none;
+  padding-right: 10px;
+
+}
+
+#login ul li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 12px;
+  background-color: #4f545a;
+  margin-top: 5px;
+}
+
+#login ul li a:hover{
+  color: #fff;
+  padding: 6px 12px;
+  background-color: #f58a1f;
+  margin-top: 5px;
+}
+
+.btnRegistro_form{
+  margin-top: -6px;
+}
+/* Final de Estilos del Header*/
+
+
+/* Inicio de Estilos del Banner Busqueda*/
+
+#banner_busqueda{
+  width: 1170px;
+  margin: 0px auto;
+}
+
+#banner_busqueda{
+  height: 421px;
+  background-image: url(../img/banner_busqueda.jpg);
+}
+
+#banner_busqueda h1{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color:#fff;
+  font-size: 47px;
+  padding-top: 145px;
+  height: 38px;
+}
+
+#banner_busqueda p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color:#fff;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 22px;
+  line-height: 19PX;
+}
+
+#formBuscarPS {
+  width: auto;
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* Final de Estilos del Banner Busqueda*/
+
+
+/* Inicio de Estilos de Reseña Kuarc*/
+
+
+#about_us{
+  width: 1170px;
+  height: 220px;
+  margin: 0px auto;
+}
+
+#about_us #logo_about{
+  float: left;
+  height: 100px;
+  margin: 55px 35px 0px 130px;
+}
+
+#about_us h3{
+  font-family: 'Oswald',sans-serif;
+  font-size: 20px;
+  color: #00aabc;
+  margin-top: 79px
+}
+
+#about_us p{
+  color: #4f545a;
+  width: 1020px;
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 24px;
+  line-height: 22px;
+}
+
+
+/* Final de Estilos de Reseña Kuarc*/
+
+
+/* Inicio de Estilos de Paso a Paso*/
+
+#paso_a_paso {
+  width: 1170px;
+  height: 300px;
+  margin: 0px auto;
+  background-color: #fcb813;
+}
+
+#paso_a_paso h1{
+  font-family: 'Oswald',sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 36px;
+  color: #fff;
+}
+
+#paso_a_paso .box_paso{
+  width: 262.5px;
+  padding: 0px 15px;
+  float: left;
+}
+
+#paso_a_paso h5{
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+#paso_a_paso p{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center;
+  margin-top: 4px;
+  line-height: 20px;
+}
+
+#paso_a_paso .icon_paso{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 35px;
+}
+
+
+/* Final de Estilos de Paso a Paso*/
+
+
+/* Inicio de Estilos de Beneficios*/
+
+#beneficios{
+  width: 1170px;
+  height: 259px;
+  margin: 0px auto;
+}
+
+#beneficios h1{
+  font-family: 'Oswald',sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #00aabc;
+  margin-top: 48px;
+}
+
+#beneficios p{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #4f545a;
+  width: 330px;
+  padding: 38px 30px 0px 30px;
+  line-height: 22px;
+  float: left;
+}
+
+/* Final de Estilos de Beneficios*/
+
+
+/* Inicio de Estilos de Casos de Exito*/
+
+#casos{
+  width: 1170px;
+  height: 221px;
+  margin: 0px auto;
+  background-image: url(../img/background_casos.jpg);
+  padding-top: 40px;
+}
+
+#casos h1{
+  color: #fff;
+  font-family: 'Oswald',sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#casos p{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  line-height: 20px;
+}
+
+#casos a{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  width: 186px;
+  background-color: #fcb813;
+  padding: 16px 62px;
+  border-radius: 25px;
+  margin-left: 492px;
+}
+
+/* Final de Estilos de Casos de Exito*/
+
+
+/* Inicio de Estilos de Nuevos Ingresos*/
+
+#nuevos_ingresos{
+  width: 1170px;
+  margin: 0px auto;
+}
+
+#nuevos_ingresos h1{
+font-family: 'Oswald',sans-serif;
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+color: #00aabc;
+margin-top: 48px;
+}
+
+#nuevos_ingresos img{
+  width: 187px;
+  height: 162px;
+}
+
+#nuevos_ingresos p{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #4f545a;
+  text-align: center;
+  margin-top:15px;
+  line-height: 20px;
+}
+
+#nuevos_ingresos .box_ingresos{
+  width: 187px;
+  float: left;
+  margin: 28px 23px;
+}
+
+/* Final de Estilos de Nuevos Ingresos*/
+
+
+/* Inicio de Estilos de Instituciones*/
+
+#instituciones {
+  width: 1170px;
+  height: 230px;
+  margin: 35px auto;
+  background-image: url(../img/img_instituciones.jpg);
+  padding-top: 55px;
+}
+
+#instituciones h1{
+  font-family: 'Oswald',sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #4f545a;
+  margin-left: 83px;
+}
+
+#instituciones p{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #4f545a;
+  margin-top:12px;
+  line-height: 20px;
+  margin-left: 83px;
+  margin-bottom: 32px;
+}
+
+.btn_instituciones{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  width: 186px;
+  background-color: #fcb813;
+  padding: 16px 62px;
+  border-radius: 25px;
+  margin-left: 83px;
+
+}
+
+.flecha_derecha{
+  text-decoration: none;
+  color: #fff;
+  margin:75px 33px 0px 15px;
+  float: left;
+}
+
+.flecha_izquierda{
+  text-decoration: none;
+  color: #fff;
+  margin:-60px 15px 0px 0px;
+  float: right;
+}
+
+/* Final de Estilos de Instituciones*/
+
+
+/* Inicio de Estilos de Footer*/
+
+footer{
+  height: 164px;
+  background-color: #4f545a;
+}
+
+footer #nav_footer{
+  width: 1170px;
+  margin: 0px auto;
+  padding-top: 25px;
+  padding-left: 150px;
+}
+
+footer ul li{
+  list-style: none;
+  font-family: 'Arimo', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Final de Estilos de Footer*/
+
+
+.clearFix{
+  clear: both;
+}
+
+
+
+/*CSS SEARCH*/
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+
+input[type=search]{
+  background: #ededed no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 80px;
+
+  -webkit-border-radius:10em;
+  -moz-border-radius:10em;
+  border-radius:10em;
+
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+input[type=search]:focus {
+  width: 150px;
+  background-color: #fff;
+  border-color: #6dcff6;
+
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/*FINAL DE CSS SEARCH*/
+
+
+/*Inicio de estilos Form Registro*/
+
+#form_registrar{
+  width: 720px;
+  border-bottom: 12px solid #FCB813;
+}
+
+#form_registrar img{
+  margin-top: 26px;
+  text-align: center;
+}
+
+#form_registrar h1{
+  font-family: 'Oswald',sans-serif;
+  font-size: 36px;
+  color: #00AABC;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#form_registrar h4{
+  font-family: 'Oswald',sans-serif;
+  font-size: 24px;
+  color: #4F545A;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn_resgistrar{
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 59px;
+  background-color: #FCB813;
+  border-radius: 25px;
+  border: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+.txt_registrar{
+  width: 250px;
+  height: 35px;
+  border: 0.5px solid #4F545A;
+  border-radius: 25px;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+
+}
+
+#form_registrar p{
+  font-family: 'Oswald',sans-serif;
+  font-size: 12px;
+  color: #4F545A;
+  font-weight: lighter;
+}
+
+
+/*Inicio de estilos Form Registro*/

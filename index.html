@@ -1,61 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Productos</title>
-</head>
-<body>
-  <main class="container">
-    <aside class="productos">
-      <h3>Filtro de Productos</h3>
-      <ul>
-        <li>
-          <input type="checkbox">
-          <label for="">Categoria 1</label>
-        </li>
-        <li>
-          <input type="checkbox">
-          <label for="">Categoria 2</label>
-        </li>
-        <li>
-          <input type="checkbox">
-          <label for="">Categoria 3</label>
-        </li>
-        <li>
-          <input type="checkbox">
-          <label for="">Categoria 4</label>
-        </li>
-        <li>
-          <input type="checkbox">
-          <label for="">Categoria 5</label>
-        </li>
-      </ul>
-    </aside>
-    <section class="productContainer">
-      <div class="container">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
-        <img src="http://placehold.it/250x150">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_popup.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <title>KUARC</title>
+  </head>
+  <body>
+    <header id="header">
+        <div id="logo">
+          <img src="img/logo_kuarc_03.png" alt="">
+        </div>
+        <nav id="main_menu">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#">KUARC</a></li>
+            <li><a href="productos.html">PRODUCTOS Y SERVICIOS</a></li>
+            <li><a href="#">RESPONSABILIDAD SOCIAL</a></li>
+            <li><a href="#">CONTÁCTENOS</a></li>
+          </ul>
+        </nav>
+        <nav id="login">
+          <ul>
+            <li>
+              <form id="formBuscarGeneral" class="" action="">
+                <input type="search" placeholder="BUSCAR" name="txtBuscarGeneral">
+              </form>
+            </li>
+            <li><a href="#0" class="cd-popup-trigger" id="boton2">REGISTRAR</a></li>
+
+<!--Script para boton -->
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#boton2").click(function(event) {
+			$("#capa").load('form_registrar.html');
+		});
+	});
+</script>
+
+<!--Final de Script para boton -->
+
+            <li><a href="#">INICIAR</a></li>
+          </ul>
+        </nav>
+    </header>
+
+  <div class="clearFix"></div>
+
+      <section id="banner_busqueda">
+          <div>
+            <img src="" alt="">
+          </div>
+          <h1>LICEPSE DINGULTUSTE</h1>
+          <p>   Caperferti cultor que deaturore mei sa rehebun<br>
+              ceportum norae inatus factum que crum tienatracta<br>
+              conerce ricibem me et perticae es vigna</p>
+          <form id="formBuscarPS" action="">
+            <input type="search" result="5" placeholder="BUSCAR" name="txtBuscarPS">
+          </form>
+      </section>
+
+  <div class="clearFix"></div>
+
+      <section id="about_us">
+        <div id="logo_about">
+          <img src="img/logo_kuarc_03.png" alt="">
+        </div>
+        <h3>EHEMENA RIBUNTEM?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+  <div class="clearFix"></div>
+
+      <section id="paso_a_paso">
+        <h1>PASO A PASO</h1>
+        <div class="box_paso">
+          <div class="icon_paso"><i class="fa fa-user-plus fa-2x" aria-hidden="true"></i></div>
+          <h5>Registrate yá!</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="box_paso">
+          <div class="icon_paso"><i class="fa fa-male fa-2x" aria-hidden="true"></i></i></div>
+          <h5>Ya eres para de KUARC</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="box_paso">
+          <div class="icon_paso"><i class="fa fa-search fa-2x" aria-hidden="true"></i></i></div>
+          <h5>Encuentra lo que buscas!</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="box_paso">
+          <div class="icon_paso"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></i></div>
+          <h5>Felicidades!</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </section>
+
+  <div class="clearFix"></div>
+
+    <section id="beneficios">
+      <h1>BENEFICIOS</h1>
+      <p class="box_beneficios">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+      <p class="box_beneficios">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+      <p class="box_beneficios">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+    </section>
+
+  <div class="clearFix"></div>
+
+    <section id="casos">
+      <h1>CASOS DE EXITO</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <a href="#">VER MÁS...</a>
+    </section>
+
+  <div class="clearFix"></div>
+
+    <section id="nuevos_ingresos">
+      <h1>NUEVOS INGRESOS</h1>
+      <div class="box_ingresos">
+        <img src="img/logo_pyme.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="box_ingresos">
+        <img src="img/logo_pyme.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="box_ingresos">
+        <img src="img/logo_pyme.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="box_ingresos">
+        <img src="img/logo_pyme.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="box_ingresos">
+        <img src="img/logo_pyme.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
     </section>
-  </main>
-</body>
+
+    <div class="clearFix"></div>
+
+    <section id="instituciones">
+      <a class="flecha_derecha" href="#"><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
+      <h1>INSTITUCIONES</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+      <a class="btn_instituciones" href="#">CONOCER</a>
+      <a class="flecha_izquierda" href="#"><i class="fa fa-arrow-circle-right fa-3x" aria-hidden="true"></i></a>
+    </section>
+
+    <div class="clearFix"></div>
+
+    <footer>
+      <section id="nav_footer">
+        <ul>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">KUARC</a></li>
+          <li><a href="#">PRODUCTOS Y SERVICIO</a></li>
+          <li><a href="#">RESPONSABILIDAD SOCIAL</a></li>
+          <li><a href="#">CONTÁCTENOS</a></li>
+        </ul>
+      </section>
+    </footer>
+
+    <!--INICIO DE POPUP-->
+
+    <div class="cd-popup" role="alert">
+      <div class="cd-popup-container">
+        <div id="capa">
+
+        </div>
+        <a href="#0" class="cd-popup-close img-replace">Close</a>
+      </div> <!-- cd-popup-container -->
+    </div> <!-- cd-popup -->
+
+    <!--FINAL DE POPUP-->
+
+  </body>
 </html>
