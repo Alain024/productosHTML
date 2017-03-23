@@ -33,9 +33,20 @@ jQuery(document).ready(function($){
 				'<li><a href="#">CONTÁCTENOS</a></li>'+
 			'</ul>'+
       '</section>'
-	); 
+	);
+
+	var myPopUp = _.template(
+		'<div class="cd-popup" role="alert">'+
+	    '<div class="cd-popup-container">'+
+	      '<div id="capa">'+
+	      '</div>'+
+	      '<a href="#0" class="cd-popup-close img-replace">Close</a>'+
+	    '</div>'+
+	  '</div>'
+	);
 
 	$("header").append(myHeader);
 	$("footer").append(myFooter);
+	$("body").append(myPopUp);
 	//end partials
 });
