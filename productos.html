@@ -8,10 +8,6 @@
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/productos.css">
   <link rel="stylesheet" href="css/style_popup.css">
-  <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Oswald:200,300,400,500,600,700" rel="stylesheet">
-  <script src="js/modernizr.js"></script>
-
-
   <title>Productos</title>
 </head>
 <body class="clearfix">
@@ -37,11 +33,23 @@
           </li>
           <li><a href="#0" class="cd-popup-trigger" id="boton2">REGISTRAR</a></li>
 
+          <!--Script para boton -->
+
+          <script type="text/javascript">
+          $(document).ready(function() {
+            $("#boton2").click(function(event) {
+              $("#capa").load('form_registrar.html');
+            });
+          });
+          </script>
+
+          <!--Final de Script para boton -->
+
           <li><a href="#">INICIAR</a></li>
         </ul>
       </nav>
   </header>
-  <main class="container clearfix">
+  <main class="container">
     <aside class="productos">
       <h3>Filtro de Productos</h3>
       <ul>
@@ -109,7 +117,7 @@
       </ul>
     </aside>
     <section class="productContainer">
-      <div class="productosContainer container">
+      <div class="container">
         <div class="item">
           <img src="http://placehold.it/250x150">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -195,19 +203,19 @@
     </section>
   </footer>
 
-  <!--INICIO DE POPUP-->
+      <!--INICIO DE POPUP-->
 
-  <div class="cd-popup" role="alert">
-    <div class="cd-popup-container">
-      <div id="capa">
+      <div class="cd-popup" role="alert">
+        <div class="cd-popup-container">
+          <div id="capa">
 
-      </div>
-      <a href="#0" class="cd-popup-close img-replace">Close</a>
-    </div> <!-- cd-popup-container -->
-  </div> <!-- cd-popup -->
+          </div>
+          <a href="#0" class="cd-popup-close img-replace">Close</a>
+        </div> <!-- cd-popup-container -->
+      </div> <!-- cd-popup -->
 
-  <!--FINAL DE POPUP-->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
+      <!--FINAL DE POPUP-->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>

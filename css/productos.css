@@ -59,15 +59,18 @@ section.productContainer {
 
 .item {
   float: left;
-  width: 30%;
-  margin: 10px;
+  width: 25%;
+  margin: 5px;
   text-align: center;
 }
 
 .item img {
   display: block;
   margin: 0 auto;
-  width: 100%;
+}
+
+.item p {
+  margin: 0 21px;
 }
 
 .pagination {
@@ -97,8 +100,4 @@ section.productContainer {
 .filterContainer {
   width: 58%;
   margin: 15px auto;
-}
-
-.productosContainer {
-  width: 90%;
 }
