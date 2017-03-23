@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		$('.cd-popup').addClass('is-visible');
 	});
-	
+
 	//close popup
 	$('.cd-popup').on('click', function(event){
 		if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
@@ -18,4 +18,9 @@ jQuery(document).ready(function($){
     		$('.cd-popup').removeClass('is-visible');
 	    }
     });
+
+		$("#boton2").click(function(event) {
+			$("#capa").load('form_registrar.html');
+		});
+
 });
